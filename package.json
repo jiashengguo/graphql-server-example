@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "compile": "tsc",
+        "build": "tsc",
         "start": "node ./dist/src/index.js",
-        "generate": "graphql-codegen"
+        "generate": "zenstack generate --schema src/zenstack/schema.zmodel && graphql-codegen"
     },
     "keywords": [],
     "author": "",
